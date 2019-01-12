@@ -1,0 +1,8 @@
+---
+- type: replace
+  path: /resource_pools/name=vms/cloud_properties?
+  value:
+    cpus: ((cpu_boshlite))
+    memory: ((mem_boshlite))
+    ephemeral_disk: ((disk_boshlite))
+
